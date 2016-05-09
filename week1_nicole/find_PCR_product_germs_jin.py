@@ -15,7 +15,7 @@
 import sys
 
 # setup parameter here then you don't need to dig where is the parameter if you want to change in the future, try not to use number in the middle of the code
-lowcut = 100
+lowcut = 400
 hicut = 600
 end_pos = 3
 
