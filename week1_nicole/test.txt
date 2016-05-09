@@ -1,0 +1,10 @@
+"genome"	"primer"	"start"	"end"	"diff"
+"usdamock2_79"	"darte_qm_304_f"	373	383	NA
+"usdamock2_79"	"darte_qm_146_f"	750	762	379
+"usdamock2_79"	"darte_qm_270_r"	972	982	220
+"usdamock2_79"	"darte_qm_196_r"	1106	1116	134
+"usdamock2_79"	"darte_qm_55_r"	1207	1217	101
+"usdamock2_79"	"darte_qm_107_r"	1258	1268	51
+"usdamock2_79"	"darte_qm_186_r"	1515	1526	258
+"usdamock2_79"	"darte_qm_329_r"	1515	1526	0
+"usdamock2_78"	"darte_qm_275_r"	4	14	-1512
