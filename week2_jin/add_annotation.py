@@ -14,14 +14,14 @@ for n,line in enumerate(anread):
 
     ids = ""
     for i in range(0,len(moreid)-3):
-        ids = ids + "_" + moreid[i]
+        ids = '_'.join([ids,moreid[i]])
     if(annot.has_key(ids[1:])):
         temp = annot[ids[1:]]
-        temp = temp + ";" + spl[12]
+        temp = ';'.join([temp,spl[12]])
         annot[ids[1:]] = temp
     else:
         annot[ids[1:]] = spl[12]
-    
+anread.close()
 
 fread = open(sys.argv[2],'r')
 for n,line in enumerate(fread):
@@ -40,3 +40,4 @@ for n,line in enumerate(fread):
     for i in range(1,len(spl)):
         result.append(spl[i])
     print '\t'.join(result)
+fread.close()
