@@ -1,5 +1,5 @@
 # Week 2 code review
-We are going to review the python that using dictionary through adding annotation into abundance matrix
+We are going to review the python code that using dictionary through adding annotation into abundance matrix
 
 ## let's try add information into dictionary
 
