@@ -19,28 +19,19 @@ mgm4675652.3|contig4_1_810_-	de964a17f0160d3701ac605ab9bc2db8	69.33	150	46		1	15
 mgm4675652.3|contig2_1_891_+	e22eb02fe8ae07483daa01a8adbf68d1	72.22	126	35		1	126	350	475	4.8e-51	199.0	2-oxoglutarate dehydrogenase E1 component (EC:1.2.4.2)
 ```
 ### STEP 1: Write python script to read file, then get 'query sequence id' and 'desciption' for each line
+Note: your ID want to look like 'contig1' instead of 'mgm4675652.3|contig5_1_1093_-'
 Sample:
 ```
-ids = mgm4675652.3|contig5_1_1093_-
+ids = contig5
 description = methanol dehydrogenase regulator
 ```
 code here
 ### STEP 2: add 'query sequence id' as a key and 'description' as contents into dictionary
+Note: There are redundant ids, then use ';' to add all description
 Sample:
 ```
-{mgm4675652.3|contig5_1_1093_-:'methanol dehydrogenase regulator', mgm4675652.3|contig4_1_810_-:'hypothetical protein'}
+{contig5:'protein MoxR (protein MxaR);putative regulatory protein'}
 ```
 
-### STEP 3: There are redundant ids, then use ';' to add all description
-Sample:
-```
-{mgm4675652.3|contig5_1_1093_-:'protein MoxR (protein MxaR);putative regulatory protein'}
-```
-### STEP 4:Now, your ID want to look like 'contig1' instead of 'mgm4675652.3|contig5_1_1093_-'
-Sample:
-```
-{contig1:'nicotinate-nucleotide pyrophosphorylase (EC:2.4.2.19)'}
-```
-
-### STEP 5: Fianlly, add annotation into your abundance matrix. 
+### STEP 3: Fianlly, add annotation into your abundance matrix. 
 Note, there are missing annotation.
