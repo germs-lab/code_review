@@ -20,6 +20,7 @@ mgm4675652.3|contig2_1_891_+	e22eb02fe8ae07483daa01a8adbf68d1	72.22	126	35		1	12
 ```
 ### STEP 1: Write python script to read file, then get 'query sequence id' and 'desciption' for each line
 Note: your ID want to look like 'contig1' instead of 'mgm4675652.3|contig5_1_1093_-'
+
 Sample:
 ```
 ids = contig5
